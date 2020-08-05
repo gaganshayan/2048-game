@@ -1,76 +1,76 @@
 /* css for the 'ancient' themed image background of the game, adds font theme, centers the game */
 body {
-    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/11/95/4ZRLcw.jpg);
-    display: flex;
-    justify-content: center;
-    font-family: 'MedievalSharp', cursive;
-  }
-  
-  /* title formatting, adds the font sizing and color */
-  h1 {
-    font-size: 80px;
-    line-height: 0.7;
-    color: black;
-    margin: 0px;
-  }
-  
-  /* margins of the page */
-  .container {
-    width: 468px;
-    margin-top: 30px;
-  }
-  
-  /* margins of the title */
-  .title {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-  
-  /* game grid settings */
-  .grid{
-    display: flex;
-    flex-wrap: wrap;
-    width: 456px;
-    height: 456px;
-    background-color: tan;
-    border: transparent;
-    border-radius: 6px;
-    margin-top: 20px;
-  }
-  
-  /* game squares and their settings */
-  .grid div {
-    width: 100px;
-    height: 100px;
-    margin: 7px;
-    border-radius: 3px;
-    background-color: tan;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    font-size: 60px;
-    line-height: 1.6;
-  }
-  
-  /* score board at the top right */
-  .score-container {
-    text-align: center;
-    width: 90px;
-    height: 75px;
-    border-radius: 3px;
-    background-color: orange;
-    color: black;
-  }
-  
-  #score {
-    font-size: 30px;
-  }
-  
-  #span {
-    font-size: medium;
-  }
-  
-  .score-title {
-    font-size: 16px;
-  }
+  background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/11/95/4ZRLcw.jpg);
+  display: flex;
+  justify-content: center;
+  font-family: 'MedievalSharp', cursive;
+}
+
+/* title formatting, adds the font sizing and color */
+h1 {
+  font-size: 80px;
+  line-height: 0.7;
+  color: black;
+  margin: 0px;
+}
+
+/* margins of the page */
+.container {
+  width: 570px;
+  margin-top: 30px;
+}
+
+/* margins of the title */
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* game grid settings */
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  width: 570px;
+  height: 570px;
+  background-color: tan;
+  border: transparent;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+/* game squares and their settings */
+.grid div {
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 3px;
+  background-color: tan;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-size: 60px;
+  line-height: 1.6;
+}
+
+/* score board at the top right */
+.score-container {
+  text-align: center;
+  width: 90px;
+  height: 75px;
+  border-radius: 3px;
+  background-color: orange;
+  color: black;
+}
+
+#score {
+  font-size: 30px;
+}
+
+#span {
+  font-size: medium;
+}
+
+.score-title {
+  font-size: 16px;
+}
