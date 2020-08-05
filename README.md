@@ -17,7 +17,7 @@ Use the arrow keys on your keyboard to move the tiles up, down, left and right t
 
 # Link to Game
 
-
+[This is the link to my game](https://gaganshayan.github.io/2048-game/)
 
 # Code Breakdown
 
@@ -167,6 +167,6 @@ Each number set has it's own color and each number is a factor of 2.
   
   })
 ```
+# Citation
 
-
-
+I took guidance from this [YouTube tutorial](https://www.youtube.com/watch?v=aDn2g8XfSMc) and made the following modifications:
